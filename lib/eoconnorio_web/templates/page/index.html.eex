@@ -1,0 +1,14 @@
+<div id="name" class="name">Evan O'Connor</div>
+<a id="github-button" class="github icon" target="_blank" href="https://www.github.com/eoconnor6797">
+  <img src="<%= Routes.static_path(@conn, "/images/github.svg") %>">
+</a>
+<a id="linkedin-button" class="linkedin icon" target="_blank" href="https://www.linkedin.com/in/evan-oconnor06/">
+  <img src="<%= Routes.static_path(@conn, "/images/linkedin.svg") %>">
+</a>
+<a id="mail-button" class="mail icon" target="_blank" href="mailto:evan@eoconnor.io">
+  <img src="<%= Routes.static_path(@conn, "/images/envelope-fill.svg") %>">
+</a>
+<a id="resume-button" class="resume icon" target="_blank" href="<%=Routes.static_path(@conn, "/pdf/evan_oconnor_resume.pdf")%>">
+  <img src="<%= Routes.static_path(@conn, "/images/file-earmark-person-fill.svg") %>">
+</a>
+<p class="center_text">Welcome to eoconnor.io</p>
